@@ -1,0 +1,126 @@
+
+.container{
+    background-color: rgba(255, 255, 255, 0.732);
+    border: solid black;
+    font-family: cursive;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    height: 600px;
+    border-radius: 10px;
+    
+}
+.b{
+    background-color: rgba(0, 0, 0, 0.698);
+    text-align: center;
+    margin-top: 47%;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-size: -medium;
+
+}
+.search{
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+    background-color: rgba(0, 0, 0, 0.698);
+    padding-top: 20px;
+    padding-bottom: 4%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    
+}
+.cityInput{
+    width: 200px;
+    height: 45px;
+    font-family: cursive;
+    border-radius: 32px ;
+    background-color: rgb(190, 198, 172);
+    border: 0px;
+    color: white;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.searchButton{
+    border-radius: 50%;
+    height: 100%;
+    height: 100%;
+    font-size: 29px;
+    padding-left: 5px;
+    padding-bottom: 9px;
+    padding-right: 5px;
+    margin-top: 3px;
+    border: 0px;
+}
+::placeholder {
+    color: red;
+    border: none;
+    font-size: 20px;
+  }
+.icon{
+
+    display: flex;
+    height: 250px;
+    width: 250px;
+    margin-left: 10%;
+}
+.description{
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -10%;
+}
+.weather{
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+    background-color: rgba(0, 0, 0, 0.698);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    height: 35%;
+    width: 50%;
+}
+.city{
+    font-size: 70px;
+}
+.temp{
+    font-size: 50px;
+    display: flex;
+}
+.date{
+    font-size: 20px;
+}
+.cond{
+    float: right;
+    margin-top:1%;
+    margin-right: 5%;
+    background-color: rgba(0, 0, 0, 0.698);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    height: 15%;
+    width: 50%;
+    display: flex;
+    font-size: 30px;
+}
+.humidity{
+    margin-left: 7%;
+}
+.wind{
+    margin-left: 30%;
+}
+.a{
+    background-color: rgba(0, 0, 0, 0.698);
+    text-align: center;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
